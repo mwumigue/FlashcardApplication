@@ -8,7 +8,7 @@ This app asks the user a question and displays the answer when the user taps on 
 
 ### App Walk-though
 
-<img src="https://drive.google.com/file/d/19NgZGPPIXAzs05cmYnOnIORv7oq1ffVS/view?usp=sharing" width=200><br>
+<img src="http://g.recordit.co/APT9W3AuY8.gif" width=200><br>
 
 
 ## Required
