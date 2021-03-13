@@ -27,4 +27,14 @@
         android:visibility="invisible"
         />
 
+    <ImageView
+        android:id="@+id/plus_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/ic_plus_button" />
+
 </RelativeLayout>
