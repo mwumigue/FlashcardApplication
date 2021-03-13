@@ -17,7 +17,8 @@ public class createYourOwnQuestion extends AppCompatActivity {
         findViewById(R.id.cancel_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
+                Intent intent = new Intent(createYourOwnQuestion.this, MainActivity.class);
+                createYourOwnQuestion.this.startActivity(intent);
             }
         });
 
