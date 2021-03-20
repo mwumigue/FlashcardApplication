@@ -7,7 +7,7 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class createYourOwnQuestion extends AppCompatActivity {
+public class CreateYourOwnQuestion extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,8 +17,8 @@ public class createYourOwnQuestion extends AppCompatActivity {
         findViewById(R.id.cancel_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(createYourOwnQuestion.this, MainActivity.class);
-                createYourOwnQuestion.this.startActivity(intent);
+                Intent intent = new Intent(CreateYourOwnQuestion.this, MainActivity.class);
+                CreateYourOwnQuestion.this.startActivity(intent);
             }
         });
 
