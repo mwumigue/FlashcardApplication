@@ -19,6 +19,7 @@ public class CreateYourOwnQuestion extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(CreateYourOwnQuestion.this, MainActivity.class);
                 CreateYourOwnQuestion.this.startActivity(intent);
+                overridePendingTransition(R.anim.cancel_button_in, R.anim.cancel_button_out);
             }
         });
 
@@ -33,7 +34,10 @@ public class CreateYourOwnQuestion extends AppCompatActivity {
                 data.putExtra("user_answer", answer);
                 setResult(RESULT_OK, data);
                 finish();
+                overridePendingTransition(R.anim.save_button_in, R.anim.save_button_out);
             }
         });
+
+
     }
 }
